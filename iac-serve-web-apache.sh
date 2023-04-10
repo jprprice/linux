@@ -14,7 +14,6 @@ sudo service apache2 start
 #INICIALIZANDO APACHE2 AUTOMATICO
 sudo systemctl enable apache2
 
-
 #BAIXANDO APLICAÇÃO WEB NO DESTINO ESPECIFICO
 wget -P /tmp https://github.com/jprprice/dioaplica-oweb/archive/refs/heads/main.zip
 
